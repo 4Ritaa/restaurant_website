@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: url(image/background5.jpg) no-repeat ;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>    
+</head>
+<body>
+    <header>
+       <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fa fa-bars"></label>
+        <a href="#" class="logo">RUBY'S<span>.</span></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reserve.html">Reserve</a>
+            <a href="about.html">About</a>
+        </nav>
+       <div class="icons">
+        <a href="reserve.html" class="fa fa-user"> </a>
+        <a href="menu.html" class="fa fa-shopping-cart"></a>
+       </div>
+    </header>
+        <section>
+        <div class="form" action="" method="post" >
+            <h2>Registration</h2>
+            <br>
+            <form name="registration"  action="registration.php" method="post">
+            Username:<br>
+            <input type="text" name="username" placeholder="Username" required /><br>
+            Email:<br>
+            <input type="email" name="email" placeholder="Email" required /><br>
+            Password:<br>
+            <input type="password" name="password" placeholder="Password" required />
+            
+            <br><br>
+            <input type="submit" name="submit" value="Register" />
+            </form>
+            </div>
+</body>
+</html>
